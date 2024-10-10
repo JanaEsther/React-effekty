@@ -7,9 +7,12 @@ Poznámka: nemáte jak ověřit změnu oproti předchozímu příkladu. Důleži
 */
 
 export const Ukol2 = () => {
+  useEffect(() => {
+    console.log('Jsem tady.');
+  }, []);
   return (
     <>
-      <p>Jsem tady</p>
+      <p>Jsem tady.</p>
     </>
   );
 };
