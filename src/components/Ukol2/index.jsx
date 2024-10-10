@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 /*
 Zadání: Vytvořte v této komponentě efekt, který se spustí při PRVNÍM vykreslení komponenty
   a v konzoli vypíše text „Jsem tady“.
