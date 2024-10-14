@@ -1,0 +1,11 @@
+.character {
+  padding: 10px;
+}
+
+.character__actor {
+  text-align: center;
+}
+
+.character__image {
+  height: 400px;
+}
