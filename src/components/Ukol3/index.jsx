@@ -7,7 +7,6 @@ Zadání: Vytvořte v této komponentě efekt, který pomocí funkce `setTimeout
 
 export const Ukol3 = () => {
   useEffect(() => {
-    console.log('Jsem tady.');
     setTimeout(() => {
       console.log('Jsem tady.');
     }, '3000');
